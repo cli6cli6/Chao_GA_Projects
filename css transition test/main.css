@@ -1,0 +1,14 @@
+.shape-shifter{
+	width: 300px;
+	height: 300px;
+	background-color: red; 
+	cursor: pointer;
+}
+
+.shape-shifter:hover {
+	background-color: green;
+	opacity: .5;
+	width: 400px;
+	transition: width 2s ease 0s;
+	           //property, how long it should take, how, wait
+}
