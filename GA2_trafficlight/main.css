@@ -1,4 +1,4 @@
-.rec{
+.rec {
 	height: 600px;
 	width: 200px;
 	background-color: black;
@@ -20,7 +20,7 @@
 	transition: background-color 0s ease 0s;
 }
 
-.yellow{
+.yellow {
 	margin: 0 auto;
 	background-color: gray;
 	border-radius: 50%;
@@ -28,7 +28,7 @@
 	height: 180px;
 }
 
-.green{
+.green {
 	margin: 0 auto;
 	background-color: gray;
 	border-radius: 50%;
