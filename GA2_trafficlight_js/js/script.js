@@ -1,8 +1,9 @@
-function click(id) { 
-    $('#red,#yellow,#green').removeClass('active');
-    $(id).addClass('active');
-}
-
-$('#red_button').click(function(){click('#red')});
-$('#yellow_button').click(function(){click('#yellow')});
-$('#green_button').click(function(){click('#green')});
+function changeLight(newColor) { 
+	var goLight = document.getElementById("green");
+	var caution = document.getElementById("yellow");
+	var stop = document.getElementById("red");
+	
+	goLight.style.backgroundColor="newColor";
+	caution.style.backgroundColor="newColor";
+	stop.style.backgroundColor="newColor";
+	}
