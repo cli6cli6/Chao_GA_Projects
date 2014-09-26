@@ -3,7 +3,7 @@ function changeLight(newColor) {
 	var caution = document.getElementById("yellow");
 	var stop = document.getElementById("red");
 	
-	goLight.style.backgroundColor="newColor";
-	caution.style.backgroundColor="newColor";
-	stop.style.backgroundColor="newColor";
+	goLight.style.backgroundColor= newColor;
+	caution.style.backgroundColor= newColor;
+	stop.style.backgroundColor= newColor;
 	}
