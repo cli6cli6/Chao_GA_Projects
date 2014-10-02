@@ -1,0 +1,55 @@
+body{
+	font-family: Helvetica, Georgia, sans-serif;
+}
+
+#thumbs {
+	position: absolute;
+	width: 100%;
+	height: 80px;
+}
+
+#mainContainer{
+	position: relative;
+	height: 700px;
+	width: 100%;
+	background-color: gray;
+}
+
+#controls {
+	position: absolute;
+	bottom: 0;
+}
+
+#mainImageContainer img {
+	width: 100%;
+}
+
+.thumb {
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	border: 2px solid white;
+	background-color: black;
+	cursor: pointer;
+	overflow: hidden;
+} 
+
+.thumb img{
+	height: 80px;
+}
+
+.thumb:hover {
+	opacity: .7;
+}
+
+.btn {
+	background-color: black;
+	padding: 20px;
+	border: 1px solid;
+	cursor: pointer;
+	color: white;
+}
+
+.btn:hover {
+	opacity: .7
+}
