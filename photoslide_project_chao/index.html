@@ -1,14 +1,11 @@
 <!DOCTYPE HTML>
-
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<script type="text/javascript" src="js/script.js"></script>
-
-		<title>Photo gallery</title>
-	</head>
-	
-	<body>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript" src="js/script.js"></script>
+	<title>Photo gallery</title>
+</head>
+<body>
 	<div id="mainContainer">
 		<div id="thumbs">
 			<div class="thumb" onclick="changePicture(0)"><img src="img/cat0.png"></div> 
@@ -16,17 +13,14 @@
 			<div class="thumb" onclick="changePicture(2)"><img src="img/cat2.png"></div>
 			<div class="thumb" onclick="changePicture(3)"><img src="img/cat3.png"></div>
 			<div class="thumb" onclick="changePicture(4)"><img src="img/cat4.png"></div>
-			
 		</div>
-
 		<div id="mainImageContainer">
 			<img id="mainImage" src="img/cat0.png">
 		</div>
-
 		<div id="controls">
 			<span id="prevButton" onclick="prevImage()" class="btn"><</span>
 			<span id="nextButton" onclick="nextImage()" class="btn">></span>
 		</div>	
 	</div>
-	</body>
+</body>
 </html>
