@@ -30,25 +30,31 @@ $( document ).ready(function() {
   
   var cpuVariable = choice[Math.floor(Math.random()*choice.length)];
   
+  if (variable === "random") {
+  	variable = choice[Math.floor(Math.random()*choice.length)];
+  }
+  
+  $("#results").text("Computer Choice: "+cpuVariable+", "+"Player Choice: "+ variable);
   
   evaluateChoices(variable, cpuVariable);
   console.log(evaluateChoices(variable, cpuVariable));
   switch (evaluateChoices(variable, cpuVariable)) {
   	case 0: 
-  	console.log("Tie")
+  	$("#reveal").text("Tie")
   	break;
   	
   	case 1: 
-  	console.log("Player Wins!")
+  	$("#reveal").text("Player Wins!")
   	break;
   	
   	case 2:
-  	console.log("Player Loses")
+  	$("#reveal").text("Player Loses")
   	break;
   }
+
   });
   
-
+  
   
 });
 
