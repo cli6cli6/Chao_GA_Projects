@@ -1,14 +1,18 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="main.css">
-		<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+		<script type="text/javascript" src="js/jquery.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 	</head>
 	
 	<body>
-		<h1>This is a fun game</h1>
-		<h2>Results here:</h2>
+		<div id="ribbon">
+			<span id="content">This is a fun game</span>
+		</div>
+
+		<h2 id="restext">Instructions: select a choice from the dropdown and click submit. See the results here:</h2>
 		<h2 id="results"></h2>
+		<h2 id="resultstwo"></h2>
 		<h2 id="reveal"> </h2>
 		<select id="choice" name="choice">
 		<option value="rock">Rock</option>

@@ -34,7 +34,8 @@ $( document ).ready(function() {
   	variable = choice[Math.floor(Math.random()*choice.length)];
   }
   
-  $("#results").text("Computer Choice: "+cpuVariable+", "+"Player Choice: "+ variable);
+  $("#results").text("Computer Choice: "+cpuVariable);
+  $("#resultstwo").text("Player Choice: "+ variable);
   
   evaluateChoices(variable, cpuVariable);
   console.log(evaluateChoices(variable, cpuVariable));
