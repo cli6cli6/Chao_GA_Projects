@@ -1,28 +1,24 @@
 <html>
-	<head>
-		<link rel="stylesheet" type="text/css" href="main.css">
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/script.js"></script>
-	</head>
-	
-	<body>
-		<div id="ribbon">
-			<span id="content">This is a fun game</span>
-		</div>
-
-		<h2 id="restext">Instructions: select a choice from the dropdown and click submit. See the results here:</h2>
-		<h2 id="results"></h2>
-		<h2 id="resultstwo"></h2>
-		<h2 id="reveal"> </h2>
-		<select id="choice" name="choice">
+<head>
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div id="ribbon">
+		<span id="content">This is a fun game</span>
+	</div>
+	<h2 id="restext">Instructions: select a choice from the dropdown and click submit. See the results here:</h2>
+	<h2 id="results"></h2>
+	<h2 id="resultstwo"></h2> <!-- When producing class and id names, the convention is to use dashes btw words, like "results-two" -->
+	<h2 id="reveal"> </h2>
+	<select id="choice" name="choice">
 		<option value="rock">Rock</option>
 		<option value="paper">Paper</option>
 		<option value="scissors" selected>Scissors</option>
 		<option value="random">Random</option>
-		</select>
-		
-		<input type="submit" id="submit" value="go">
-		
-	</body>
-		
+	</select>
+	<input type="submit" id="submit" value="go">
+</body>
+</html>
 		
