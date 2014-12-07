@@ -6,3 +6,6 @@ function click(id) {
 $('#red_button').click(function(){click('#red')});
 $('#yellow_button').click(function(){click('#yellow')});
 $('#green_button').click(function(){click('#green')});
+
+
+// AWESOME!

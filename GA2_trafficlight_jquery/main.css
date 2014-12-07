@@ -9,9 +9,8 @@
 	padding-top: 20px;
 }
 
-#red, 
-#yellow,
-#green {
+/* If you're styling multiple ids, it might be a good idea to build a new class and apply it to your site */
+#red, #yellow, #green {
 	margin: 0 auto;
 	background-color: black;
 	border-radius: 50%;
